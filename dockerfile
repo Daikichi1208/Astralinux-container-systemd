@@ -9,6 +9,4 @@ RUN set -eux; \
     apt-get purge -y --auto-remove astra-safepolicy; \
     rm -rf /var/lib/apt/lists/*
 
-STOPSIGNAL SIGRTMIN+3
-
 CMD ["/sbin/init"]
