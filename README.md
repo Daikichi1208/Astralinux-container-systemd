@@ -22,4 +22,8 @@ docker run -d --name astra-systemd \
     astra-systemd
 ```
 
+# Подключение к контейнеру
+```
+docker exec -it astra-systemd /bin/bash
+```
 ![systemd](/img/systemd.png)
